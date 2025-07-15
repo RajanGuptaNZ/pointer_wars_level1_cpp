@@ -90,11 +90,6 @@ bool linked_list::insert(size_t index, unsigned int data)
 
 bool linked_list::insert_front(unsigned int data)
 {
-    if (is_empty())
-    {
-        return insert_into_empty_list(data);
-    }
-
     node* newNode = create_node(data, head);
     if (newNode == nullptr) [[unlikely]]
     {
