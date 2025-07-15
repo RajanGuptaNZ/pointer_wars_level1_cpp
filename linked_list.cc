@@ -1,8 +1,6 @@
 #include "linked_list.h"
 
 #include <cassert>
-#include <new>
-#include <sstream>
 
 // Initial declaration of the static member function
 // pointers in the linked_list class.
